@@ -1,0 +1,29 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000a\u0000j\u0000i\u0000s\u0000a\u0000-\u0000A\u0000s\u0000s\u0000e\u0000s\u0000s\u0000m\u0000e\u0000n\u0000t\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/db/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquazod/Majisa-Assessment.git"
+  },
+  "author": "Assem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aquazod/Majisa-Assessment/issues"
+  },
+  "homepage": "https://github.com/aquazod/Majisa-Assessment#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
